@@ -1,9 +1,13 @@
 What happens when you initialize a repository? Why do you need to do it?
   The repository is empty.  You need to add files into it and commit them
   in order to keep track of the files changes.
-  
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+  staging area is super important so you can have full control which files
+  you want to commit at that moment.
+  Working directory are files you are working on which files doesn't necessary
+  needs to be in the repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
