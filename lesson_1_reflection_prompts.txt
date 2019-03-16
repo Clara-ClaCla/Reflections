@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    focus on changed lines to spot the bug
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Trying to implement using a method to later found that another method will
+    be better.  Reverting to older version.  Clients love to change their mind
+    with their functions, can revert or grab back old implementation.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pro - you have control over when to commit on the progress of your coding
+    cons - forgetting to save or if things crashed, you get a copy
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A project consists a lot of files combined together.
+    Documents written in Google are individual.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log - view the comments to get an idea what has changed in that versions.
+    It helps a lot when you need check the codes.
+    Git diff - know the location of the differences can pinpoint the code that
+    we want to use for the current working project.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If a bug is introduced, but not sure which commit introduced it.
+    we can always go back to the older commits.
+    Explore significant changes to the code base - architecture  and differences at the
+    low level without breaking the entire project and trying to make it work again.
+    With version control - I can rethink code base
+    the idea with exploration
+    without - little iteration of improvement
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Code with out too much worrying breaking the current version.
+    I can always revert back.
